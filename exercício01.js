@@ -1,44 +1,44 @@
-const livroObjeto = new Object;
-livroObjeto.nome = "Noiva";
-livroObjeto.autor = "Ali Hazelwood";
-livroObjeto.ano = 2024;
+const livro = new Object();
+livro.nome = "Noiva";
+livro.autor = "Ali Hazelwood";
+livro.ano = 2024;
 
-console.log(livroObjeto);
+console.log(livro);
 
-const alunoObjeto = new Object;
-alunoObjeto.nome = "Isabella";
-alunoObjeto.turma = "2TDS1";
+const aluno= new Object();
+aluno.nome = "Isabella";
+aluno.turma = "2TDS1";
 
-console.log(alunoObjeto);
+console.log(aluno);
 
-const carroObjeto = new Object;
-carroObjeto.cor = "Vermelho";
-carroObjeto.modelo = "Tracker";
-carroObjeto.ano = 2023
+const carro = new Object();
+carro.cor = "Vermelho";
+carro.modelo = "Tracker";
+carro.ano = 2023
 
-console.log(carroObjeto);
+console.log(carro);
 
-const filmeObjeto = new Object;
-filmeObjeto.titulo = "Homem de ferro";
-filmeObjeto.diretor = "Jon Favreau";
-filmeObjeto.ano = 2008;
+const filme = new Object();
+filme.titulo = "Homem de ferro";
+filme.diretor = "Jon Favreau";
+filme.ano = 2008;
 
-console.log(filmeObjeto);
+console.log(filme);
 
-const cachorroObjeto = new Object;
-cachorroObjeto.nome = "Bilu";
-cachorroObjeto.raça = "Vira-lata";
-cachorroObjeto.cor = "Branco";
+const cachorro = new Object();
+cachorro.nome = "Bilu";
+cachorro.raça = "Vira-lata";
+cachorro.cor = "Branco";
 
-console.log(cachorroObjeto);
+console.log(cachorro);
 
-const produtoObjeto = new Object;
-produtoObjeto.descricao = "Poco X6";
-produtoObjeto.marca = "Poco";
-produtoObjeto.preço = 1500;
+const produto = new Object();
+produto.descricao = "Poco X6";
+produto.marca = "Poco";
+produto.preço = 1500;
 
-console.log (produtoObjeto);
+console.log (produto);
 
-produtoObjeto.preço = 2000;
+produto.preço = 2000;
 
-console.log(produtoObjeto)
+console.log(produto);
